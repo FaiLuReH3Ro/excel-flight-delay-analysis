@@ -81,7 +81,7 @@ The columns for delay reasons in the original dataset were already in a pivot fo
 
 ### 🧩 Power Pivot (Data Model)
 
-To link multiple tables together, I used Power Pivot to establish connections between them. I also created a date table within the model. The diagram view made it easy to visualize all the tables and their cardinalities
+To link multiple tables together, I used Power Pivot to establish connections between them. I also created a date table within the model. The diagram view made it easy to visualize all the tables and their cardinalities.
 
 ![](/assets/data_model.PNG)
 
