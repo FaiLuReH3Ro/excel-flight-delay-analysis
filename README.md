@@ -93,11 +93,14 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 
 ## 📊 Dashboard
 
-![dashboard.PNG](/assets/dashboard.PNG)
+<video width="320" height="240" controls>
+  <source src="flight_dashboard.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 >  👇 Click below to download the dashboard
 
-[![Static Badge](https://img.shields.io/badge/dashboard-gray?style=for-the-badge&label=excel&labelColor=217346)](/flight_delay_analysis.xlsx)
+[![Static Badge](https://img.shields.io/badge/dashboard-gray?style=for-the-badge&label=excel&labelColor=217346)](https://drive.google.com/drive/folders/1r1j_F6_IbZPvQdBhMYoxIo0Ztw7SDCET?usp=sharing)
 
 
 ## 🔍 Insights
