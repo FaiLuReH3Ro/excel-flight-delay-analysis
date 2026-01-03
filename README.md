@@ -87,6 +87,13 @@ To link multiple tables together, I used Power Pivot to establish connections be
 
 ## 📊 Dashboard
 
+![](/assets/dashboard.PNG)
+
+>  👇 Click below to download the dashboard
+
+[![Static Badge](https://img.shields.io/badge/dashboard-gray?style=for-the-badge&label=excel&labelColor=217346)](/flight_delay_analysis.xlsx)
+
+
 ## 🔍 Insights
 
 ## 🏁 Conclusion
