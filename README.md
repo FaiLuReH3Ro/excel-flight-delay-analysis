@@ -106,21 +106,39 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 
 ![](/assets/avg_delay_trends.png)
 
+- **Seasonality** is a significant driver of delays, with summer travel consistently associated with higher average delays.
+- **COVID-19** in 2020 led to temporary improvements in on-time performance, with flights arriving ahead of schedule.
+- **Delays** increased in 2021 and remained high through 2023, indicating ongoing operational challenges and a reduced ability to recover schedules.
 
 ### ⚙️ Primary Causes of Delays
 
 ![](/assets/delay_causes.png)
 
+- **Carrier-related** issues are the leading cause of delays, contributing the highest overall volume.
+- **Late aircraft** and the **National Airspace System** (NAS)  are similarly significant, indicating strong operational dependencies.
+- **Weather-related** delays occur far less frequently than operational causes, even though they are more noticeable.
+-**Security** delays are minimal and have a negligible impact on the overall delay totals.
+
 ### 🚫 Cancellations Breakdown
 
 ![](/assets/cancel_causes.png)
+
+- **Weather** is the primary reason for cancellations, accounting for the largest proportion of cases.
+- **Security** issues are the second most significant contributor, indicating disruption beyond routine operations.
+- **Carrier** causes represent a notable portion but are less dominant than weather and security.
+- **NAS** contributes the smallest portion, indicating that system-wide constraints are not a frequent cause of cancellations.
 
 ### ⏱️ Lowest On-Time Performing Airlines
 
 ![](/assets/lowest_airlines.png)
 
+- **Allegiant Air** has the highest average arrival delay, making it the lowest on-time airline. 
+
 ### 🛫 Origin Airports with the Longest Delays
 
 ![](/assets/lowest_origin_airports.png)
+
+- **Pago Pago International Airport** has the highest average departure delays among all analyzed origin airports.
+- The remaining airports from top to bottom are **Santa Maria Airport**, **Portsmouth International Airport**, **Pitt–Greenville Airport**, and **Hagerstown Regional Airport**.
 
 ## 🏁 Conclusion
