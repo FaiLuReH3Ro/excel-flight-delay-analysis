@@ -48,13 +48,13 @@ I used Power Query to extract the source dataset (`flights_sample_3m.csv`) and s
 
 > flights_sample_3m
 
-![](/assets/power_query_steps.PNG)
+![power_query_steps.PNG](/assets/power_query_steps.PNG)
 
 To reduce redundancy, I created a separate table for airline data, which I used to identify the corresponding airline for each flight. I also eliminated all unnecessary columns from the main table.
 
 > airlines
 
-![](/assets/airlines.PNG)
+![airlines.PNG](/assets/airlines.PNG)
 
 As the cancellation codes were not clearly defined in the dataset, I created a new table using the advanced editor to link each cancellation code with its corresponding category. The descriptive category will improve insights into analyzing cancellations.
 
@@ -71,19 +71,19 @@ As the cancellation codes were not clearly defined in the dataset, I created a n
 
 > cancel_codes
 
-![](/assets/cancel_codes.PNG)
+![cancel_codes.PNG](/assets/cancel_codes.PNG)
 
 The columns for delay reasons in the original dataset were already in a pivot format. To better aggregate the data, I created a new table that unpivots these columns. I also included the index column in the new table to preserve the connection to the main table.
 
 > delays
 
-![](/assets/delays.PNG)
+![delays.PNG](/assets/delays.PNG)
 
 ### 🧩 Power Pivot (Data Model)
 
 To link multiple tables together, I used Power Pivot to establish connections between them. I also created a date table within the model. The diagram view made it easy to visualize all the tables and their cardinalities.
 
-![](/assets/data_model.PNG)
+![data_model.PNG](/assets/data_model.PNG)
 
 I used DAX to calculate measures such as the on-time arrival rate.
 
@@ -93,7 +93,7 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 
 ## 📊 Dashboard
 
-![](/assets/dashboard.PNG)
+![dashboard.PNG](/assets/dashboard.PNG)
 
 >  👇 Click below to download the dashboard
 
@@ -104,7 +104,7 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 
 ### 📈 Flight Delay Trends Over Time
 
-![](/assets/avg_delay_trends.png)
+![avg_delay_trends.png](/assets/avg_delay_trends.png)
 
 - **Seasonality** is a significant driver of delays, with summer travel consistently associated with higher average delays.
 - **COVID-19** in 2020 led to temporary improvements in on-time performance, with flights arriving ahead of schedule.
@@ -112,7 +112,7 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 
 ### ⚙️ Primary Causes of Delays
 
-![](/assets/delay_causes.png)
+![delay_causes.png](/assets/delay_causes.png)
 
 - **Carrier-related** issues are the leading cause of delays, contributing the highest overall volume.
 - **Late aircraft** and the **National Airspace System** (NAS)  are similarly significant, indicating strong operational dependencies.
@@ -121,7 +121,7 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 
 ### 🚫 Cancellations Breakdown
 
-![](/assets/cancel_causes.png)
+![cancel_causes.png](/assets/cancel_causes.png)
 
 - **Weather** is the primary reason for cancellations, accounting for the largest proportion of cases.
 - **Security** issues are the second most significant contributor, indicating disruption beyond routine operations.
@@ -130,13 +130,13 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 
 ### ⏱️ Lowest On-Time Performing Airlines
 
-![](/assets/lowest_airlines.png)
+![lowest_airlines.png](/assets/lowest_airlines.png)
 
 - **Allegiant Air** has the highest average arrival delay, making it the lowest on-time airline. 
 
 ### 🛫 Origin Airports with the Longest Delays
 
-![](/assets/lowest_origin_airports.png)
+![lowest_origin_airports.png](/assets/lowest_origin_airports.png)
 
 - **Pago Pago International Airport** has the highest average departure delays among all analyzed origin airports.
 - The remaining airports from top to bottom are **Santa Maria Airport**, **Portsmouth International Airport**, **Pitt–Greenville Airport**, and **Hagerstown Regional Airport**.
