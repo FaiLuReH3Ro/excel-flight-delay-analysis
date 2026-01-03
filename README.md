@@ -117,7 +117,7 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 - **Carrier-related** issues are the leading cause of delays, contributing the highest overall volume.
 - **Late aircraft** and the **National Airspace System** (NAS)  are similarly significant, indicating strong operational dependencies.
 - **Weather-related** delays occur far less frequently than operational causes, even though they are more noticeable.
--**Security** delays are minimal and have a negligible impact on the overall delay totals.
+- **Security** delays are minimal and have a negligible impact on the overall delay totals.
 
 ### 🚫 Cancellations Breakdown
 
