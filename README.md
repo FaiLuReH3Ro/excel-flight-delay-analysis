@@ -11,7 +11,7 @@ Using key performance metrics, such as on-time arrival rate, average delay times
 1. Analyze flight delay trends over time
 2. Identify major causes of delays and cancellations
 3. Determine which carriers have the lowest on-time performance
-4. Evaluate airport performance to identify which airport experience the most delays
+4. Evaluate airport performance to identify which airport experiences the most delays
 5. Build an interactive dashboard to explore the data
 6. Highlight actionable insights for operational improvements based on patterns
 
@@ -93,15 +93,11 @@ On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[AR
 
 ## 📊 Dashboard
 
-<video width="320" height="240" controls>
-  <source src="flight_dashboard.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/ff167f51-eb34-4d45-b3df-7a9c0fa1fc9e
 
 >  👇 Click below to download the dashboard
 
 [![Static Badge](https://img.shields.io/badge/dashboard-gray?style=for-the-badge&label=excel&labelColor=217346)](https://drive.google.com/drive/folders/1r1j_F6_IbZPvQdBhMYoxIo0Ztw7SDCET?usp=sharing)
-
 
 ## 🔍 Insights
 
