@@ -33,16 +33,16 @@ The original data was sourced from the [US Department of Transportation - Bureau
 
 ## 🛠 Skills Demonstrated
 
-- ETL (Extract, transform, load)
-- Power Query
-- Power Pivot
-- Data Modeling
-- Pivot Tables
-- Pivot Charts
-- Formulas and Functions
-- DAX (Data Analysis Expressions)
+- **ETL (Extract, transform, load)**
+- **Power Query**
+- **Power Pivot**
+- **Data Modeling**
+- **Pivot Tables**
+- **Pivot Charts**
+- **Formulas and Functions**
+- **DAX (Data Analysis Expressions)**
 
-### Power Query (ETL)
+### 🔄 Power Query (ETL)
 
 I used Power Query to extract the source dataset (`flights_sample_3m.csv`) and started cleaning the data. The time columns were in the wrong format, so I created several custom columns to make the necessary adjustments. Additionally, I sorted the rows in ascending order by flight date and added an index column to serve as the primary key. This initial query will act as the main table.
 
@@ -75,11 +75,11 @@ As the cancellation codes were not clearly defined in the dataset, I created a n
 
 The columns for delay reasons in the original dataset were already in a pivot format. To better aggregate the data, I created a new table that unpivots these columns. I also included the index column in the new table to preserve the connection to the main table.
 
-> delays 
+> delays
 
 ![](/assets/delays.PNG)
 
-### Power Pivot (Data Model)
+### 🧩 Power Pivot (Data Model)
 
 To link multiple tables together, I used Power Pivot to establish connections between them. I also created a date table within the model. The diagram view made it easy to visualize all the tables and their cardinalities
 
