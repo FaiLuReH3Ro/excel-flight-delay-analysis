@@ -85,6 +85,12 @@ To link multiple tables together, I used Power Pivot to establish connections be
 
 ![](/assets/data_model.PNG)
 
+I used DAX to calculate measures such as the on-time arrival rate.
+
+```
+On-Time Arrival Rate:=CALCULATE(COUNT([ARR_DELAY]), FILTER(flights_sample_3m,[ARR_DELAY] <= 0)) / COUNT([ARR_DELAY])
+```
+
 ## 📊 Dashboard
 
 ![](/assets/dashboard.PNG)
@@ -95,5 +101,26 @@ To link multiple tables together, I used Power Pivot to establish connections be
 
 
 ## 🔍 Insights
+
+### 📈 Flight Delay Trends Over Time
+
+![](/assets/avg_delay_trends.png)
+
+
+### ⚙️ Primary Causes of Delays
+
+![](/assets/delay_causes.png)
+
+### 🚫 Cancellations Breakdown
+
+![](/assets/cancel_causes.png)
+
+### ⏱️ Lowest On-Time Performing Airlines
+
+![](/assets/lowest_airlines.png)
+
+### 🛫 Origin Airports with the Longest Delays
+
+![](/assets/lowest_origin_airports.png)
 
 ## 🏁 Conclusion
