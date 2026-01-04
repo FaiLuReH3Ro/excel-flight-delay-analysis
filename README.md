@@ -1,5 +1,7 @@
 # ✈️ U.S. Flight Delay & Cancellation Analysis - Excel
 
+![dashboard.PNG](assets/dashboard.PNG)
+
 ## 📌 Introduction
 
 This project analyzes U.S. flight delay and cancellation data from 2019 to 2023 to evaluate airline and airport performance and uncover patterns in travel disruptions. The analysis focuses on identifying trends in delays over time, the primary causes of delays and cancellations, and differences in on-time performance across carriers and airports.
