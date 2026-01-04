@@ -122,7 +122,7 @@ https://github.com/user-attachments/assets/ff167f51-eb34-4d45-b3df-7a9c0fa1fc9e
 
 ![cancel_causes.png](/assets/cancel_causes.png)
 
-- **Weather** is the primary reason for cancellations, accounting for the largest proportion of cases.
+- **Weather** is the primary reason for cancellations, accounting for the most significant proportion of cases.
 - **Security** issues are the second most significant contributor, indicating disruption beyond routine operations.
 - **Carrier** causes represent a notable portion but are less dominant than weather and security.
 - **NAS** contributes the smallest portion, indicating that system-wide constraints are not a frequent cause of cancellations.
@@ -141,3 +141,15 @@ https://github.com/user-attachments/assets/ff167f51-eb34-4d45-b3df-7a9c0fa1fc9e
 - The remaining airports from top to bottom are **Santa Maria Airport**, **Portsmouth International Airport**, **Pitt–Greenville Airport**, and **Hagerstown Regional Airport**.
 
 ## 🏁 Conclusion
+
+- **Prioritize departure improvements**
+  - Average departure delay (10 mins) is more than double the arrival delays (4 mins), indicating that the issues primarily arise before departure.
+- **Focus on the top delay causes**
+  - The top three causes of delays (carrier, late aircraft, and NAS) account for a significant portion of the total delays, with carrier-related delays averaging approximately 45 minutes.
+- **Leverage seasonal trends**
+  - Use past trends to predict periods of high delays and adjust capacity, staffing, schedules, or maintenance accordingly.
+- **Target low-performing carriers**
+  - Airlines with the lowest on-time performance may be further investigated to identify specific changes for improvement.
+- **Address high-delay origin airports**
+  - Prioritize PPG or similarly performing airports to determine the various factors contributing to the discrepancies and allocate resources to address these issues.
+
