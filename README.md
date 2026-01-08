@@ -1,4 +1,4 @@
-# ✈️ U.S. Aviation Performance Analysis - Excel
+# ✈️ U.S. Flight Performance Analysis - Excel
 
 ![dashboard.PNG](assets/dashboard.PNG)
 
